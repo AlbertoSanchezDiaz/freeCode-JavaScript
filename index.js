@@ -43,3 +43,41 @@ var product = 2.0 * 2.5;
 
 var quotient = 4.4 / 2.0;
 
+var remainder;
+remainder = 11 % 3;
+
+var a = 3;
+var b = 17;
+var c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+
+var a = 11;
+var b = 9;
+var c = 3;
+
+a -= 6;
+b -= 15;
+c -= 1;
+
+var a = 5;
+var b = 12;
+var c = 4.6;
+
+a *= 5;
+b *= 3;
+c *= 10;
+
+var a = 48;
+var b = 108;
+var c = 33;
+
+a /= 12;
+b /= 4;
+c /= 11;
+
+var myFirstName = "Alberto";
+var myLastName = "Sanchez";
+
