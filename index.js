@@ -86,3 +86,33 @@ var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 var myStr="FirstLine\n\t\\SecondLine\nThirdLine";
+
+var myStr="This is the start. " + "This is the end.";
+
+var myStr="This is the first sentence. ";
+myStr +="This is the second sentence.";
+
+var myName="Alberto";
+var myStr="Hello, my name is " + myName + "and I am Well!";
+
+var someAdjective="awesome!";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+lastNameLength = lastName.length;
+
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0];
+
+var myStr = "Jello World";
+
+myStr = "Hello World";
+
+var lastName = "Lovelace";
+
+var thirdLetterOfLastName = lastName[2];
