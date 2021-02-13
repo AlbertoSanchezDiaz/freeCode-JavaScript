@@ -81,3 +81,8 @@ c /= 11;
 var myFirstName = "Alberto";
 var myLastName = "Sanchez";
 
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+var myStr="FirstLine\n\t\\SecondLine\nThirdLine";
