@@ -133,3 +133,27 @@ var myArray = ["Alberto", 1,];
 
 var myArray = [["Madrid",7], ["Betis", 10]];
 
+var myArray = [50,60,70];
+var myData = myArray[0];
+
+var myArray = [45,64,99];
+myArray[0]=45;
+
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+var myData = myArray[2][1];
+
+var myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog",3]);
+
+var myArray = [["John", 23], ["cat", 2]];
+var removedFromMyArray=myArray.pop();
+
+var myArray = [["John", 23], ["dog", 3]];
+var removedFromMyArray=myArray.shift();
+
+var myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul",35]);
+
+var myList = [["Milk",4], ["Bread",5], ["Oranges",6], ["Lemons",2], ["Donuts",4]];
+
