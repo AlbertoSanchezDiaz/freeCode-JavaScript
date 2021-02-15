@@ -162,3 +162,74 @@ function reusableFunction() {
 }
 
 reusableFunction();
+
+function FunctionWithArgs(a, b) {
+    console.log(a - b);
+  }
+  
+  FunctionWithArgs(10, 5); 
+  
+  function functionWithArgs(a, b) {
+    console.log(a + b);
+  }
+  
+  functionWithArgs (1, 2);
+  functionWithArgs (7, 9);
+
+
+
+function fun1() {
+
+var myGlobal=10;
+
+function fun1() {
+
+oopsGlobal=5;
+}
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+var outerWear="sweater";
+  return outerWear;
+}
+
+myOutfit();
+
+function timesFive(num){
+    return num*5;
+}
+
+var answer  = timesFive(3);
+
+var sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+function addFive(){
+  sum = sum + 5;
+}
+
+addThree();
+addFive();
+
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+processed=processArg(7);
