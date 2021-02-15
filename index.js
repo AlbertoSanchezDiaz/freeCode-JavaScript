@@ -114,5 +114,22 @@ var myStr = "Jello World";
 myStr = "Hello World";
 
 var lastName = "Lovelace";
-
 var thirdLetterOfLastName = lastName[2];
+
+var lastName = "Lovelace";
+var lastLetterOfLastName = lastName[lastName.length-1];
+
+var lastName = "Lovelace";
+var secondToLastLetterOfLastName = lastName[lastName.length-2];
+
+var myNoun = "dog";
+var myAdjective = "big";
+var myVerb = "ran";
+var myAdverb = "quickly";
+
+var wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+
+var myArray = ["Alberto", 1,];
+
+var myArray = [["Madrid",7], ["Betis", 10]];
+
