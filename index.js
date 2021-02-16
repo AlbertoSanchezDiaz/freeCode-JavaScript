@@ -187,6 +187,7 @@ function fun1() {
 oopsGlobal=5;
 }
 
+}
 function fun2() {
   var output = "";
   if (typeof myGlobal != "undefined") {
