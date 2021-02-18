@@ -455,3 +455,7 @@ switch(val){
 }
 
 sequentialSizes(1);
+
+var product = 2.0 * 2.5;
+
+var quotient = 4.4 / 2.0;
