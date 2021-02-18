@@ -142,16 +142,16 @@ myArray[0]=45;
 var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 var myData = myArray[2][1];
 
-var myArray = [["John", 23], ["cat", 2]];
+var myArray = [["Alberto", 23], ["cat", 2]];
 myArray.push(["dog",3]);
 
-var myArray = [["John", 23], ["cat", 2]];
+var myArray = [["Alberto", 23], ["cat", 2]];
 var removedFromMyArray=myArray.pop();
 
-var myArray = [["John", 23], ["dog", 3]];
+var myArray = [["Alberto", 23], ["dog", 3]];
 var removedFromMyArray=myArray.shift();
 
-var myArray = [["John", 23], ["dog", 3]];
+var myArray = [["Alberto", 23], ["dog", 3]];
 myArray.shift();
 myArray.unshift(["Paul",35]);
 
