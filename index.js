@@ -577,3 +577,48 @@ var myDog = {
 
 myDog.name="Happy Coder";
 
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog["bark"]="woof";
+
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+delete myDog.tails;
+
+function phoneticLookup(val) {
+  var result = "";
+
+  var lookup = {
+    "alpha":"Adams",
+    "bravo":"Boston",
+    "charlie":"Chicago",
+    "delta":"Denver",
+    "echo":"Easy",
+    "foxtrot":"Frank"
+  }
+  
+  result = lookup[val];
+  return result;
+}
+
+phoneticLookup("charlie");
+
+function checkObj(obj, checkProp) {
+   if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  }
+  else {
+  return "Not Found";
+  }
+}
